@@ -24,11 +24,11 @@ fun CalculatorScreen(
         Spacer(modifier = Modifier.weight(0.1f))
         CalculatorDisplay(
             state = state,
-            modifier = Modifier.weight(0.35f)
+            modifier = Modifier.weight(0.30f)
         )
         CalculatorButtonGrid(
             onAction = viewModel::onAction,
-            modifier = Modifier.weight(0.55f)
+            modifier = Modifier.weight(0.50f)
         )
     }
 }
