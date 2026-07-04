@@ -21,7 +21,7 @@ fun CalculatorScreen(
         modifier = modifier
             .fillMaxSize()
     ) {
-        Spacer(modifier = Modifier.weight(0.15f))
+        Spacer(modifier = Modifier.weight(0.10f))
         CalculatorDisplay(
             state = state,
             modifier = Modifier.weight(0.30f)
